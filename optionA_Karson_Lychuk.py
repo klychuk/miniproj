@@ -42,7 +42,7 @@ def mini_proj(SRR1,Ref_SRR,fqn,user,genus):
     
     # the spades command, using the algorithm, proper output dir and input which is our fasta file
     # WHAT SPADES DOES LMAO
-    spades = 'spades -k 55,77,99,127 -t 2 --only-assembler ' + di + " -o home/" + user + '/ass_' + SRR1
+    spades = 'spades -k 55,77,99,127 -t 2 --only-assembler ' + di + " -o home/" + user + '/spades_' + SRR1
 
     #print(spades)
     os.system(spades)
