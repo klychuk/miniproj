@@ -137,7 +137,7 @@ def mini_proj(SRR1,Ref_SRR,fqn,user,genus):
         output.write(brbcom + '\n' + btcom + '\n' + clc)
         
     #gathers the fpkm from isoforms
-    with open('isoforms.fpkm_tracking', mode = 'r') as _file:
+    with open('genes.fpkm_tracking', mode = 'r') as _file:
         csv_reader = csv.DictReader(_file, delimiter='\t')
         lc = 0
         for row in csv_reader:
