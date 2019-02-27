@@ -1,4 +1,5 @@
 import os
+from Bio import SeqIO
 import csv
 
 path = os.getcwd()
