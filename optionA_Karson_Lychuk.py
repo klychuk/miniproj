@@ -74,7 +74,7 @@ def mini_proj(SRR1,Ref_SRR,fqn,user,genus):
        
     
     #assembles the prokka command with the outfir, specificed genus and location of the contig file
-    #WHAT IT DOES LMAO
+    #annotates the assembly
     proka = 'prokka --outdir prok --prefix ' + genus + ' home/' + user + '/contigs.fasta\n'
     os.system(proka)
     
