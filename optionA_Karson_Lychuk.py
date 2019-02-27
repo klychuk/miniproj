@@ -147,7 +147,7 @@ def mini_proj(SRR1,Ref_SRR,fqn,user,genus):
            else:
                a4 = (f'{row["locus"]}\t {row["FPKM"]}')
 
-    with open(OptionA.log, 'a') as output:
+    with open(Option1.fpkm, 'w') as output:
         output.write(a4)
                                   
      
